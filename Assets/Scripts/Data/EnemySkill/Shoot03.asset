@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee74e599eae408e48af11c75c7b00df6, type: 3}
+  m_Name: Shoot03
+  m_EditorClassIdentifier: 
+  skillType: 0
+  cooldown: 15
+  castRange: 50
+  globalCooldown: 4
+  weight: 50
+  enemyBulletPrefab: {fileID: 6885368092213247324, guid: fc2879df90bd0814fb7c1cbf690f3d43, type: 3}
+  burstCount: 9
+  burstInterval: 0.5
+  bulletCount: 2
+  spreadAngle: 0
+  chargeTime: 7
+  dashSpeed: 35
+  dashDuration: 2
+  dashDamage: 20
+  dashKnockbackForce: 15
+  dashHitRadius: 1.5
+  chargeSFX: {fileID: 0}
+  dashSFX: {fileID: 0}
+  hitSFX: {fileID: 0}
+  countdownDuration: 2.5
+  explosionRadius: 3
+  explosionDamage: 50
+  deathAfterExplode: 1
+  countdownSFX: {fileID: 0}
+  countdownSpeedMultiplier: 1.3

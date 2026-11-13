@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d609e1e7e3c8d284484310bd0e2ee81a, type: 3}
+  m_Name: Bomb
+  m_EditorClassIdentifier: 
+  enemyName: "\u70B8\u5F39"
+  maxHealth: 30
+  moveSpeed: 28
+  expDrop: 1
+  maxFollowDistance: 10
+  minFollowDistance: 2
+  wanderSpeed: 32
+  collisionDamage: 25
+  hitFlashDuration: 0.15
+  lootTable: {fileID: 11400000, guid: 21adf13e95b258041bda8d98e10ef116, type: 2}
+  dropChance: 45
